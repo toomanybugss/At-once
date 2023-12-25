@@ -1,0 +1,5 @@
+Download the file.
+Open the file using your fev txt editor or IDE.
+change the names of the apps and links as your prefarance, but all the names should be same as your system.
+Run the file using command line.
+Wallah !!!! 
