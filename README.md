@@ -28,8 +28,8 @@ Before running the script, make sure you have:
 
 ## 📁 Project Files
 
-* `startup.py` → Main script (you can edit this)
-* `startup.exe` → Ready-to-run executable (optional)
+* `atonce.py` → Main script (you can edit this)
+* `atonce.exe` → Ready-to-run executable (optional)
 
 ---
 
@@ -46,7 +46,7 @@ Before running the script, make sure you have:
 3. Run:
 
    ```
-   python startup.py
+   python atonce.py
    ```
 
 ---
@@ -57,7 +57,7 @@ Before running the script, make sure you have:
 2. Double-click:
 
    ```
-   startup.exe
+   atonce.exe
    ```
 
 ---
@@ -66,12 +66,11 @@ Before running the script, make sure you have:
 
 ### ✏️ Edit Apps
 
-Open `startup.py` and modify:
+Open `atonce.py` and modify:
 
 ```python
 apps = [
-    "whatsapp",
-    "visual studio code",
+    "File Explorer",
     "notepad"
 ]
 ```
@@ -83,7 +82,6 @@ apps = [
 ```python
 urls = [
     "https://www.youtube.com",
-    "https://calendar.google.com"
 ]
 ```
 
@@ -117,13 +115,13 @@ This helps you find the correct system name.
 If you change the script, rebuild the `.exe`:
 
 ```
-pyinstaller --onefile --noconsole startup.py
+pyinstaller --onefile --noconsole atonce.py
 ```
 
 New file will be in:
 
 ```
-dist/startup.exe
+dist/atonce.exe
 ```
 
 ---
@@ -134,7 +132,7 @@ You can launch the script using a keyboard shortcut:
 
 ### Steps:
 
-1. Right-click `startup.exe` → **Create shortcut**
+1. Right-click `atonce.exe` → **Create shortcut**
 2. Right-click the shortcut → **Properties**
 3. Find **Shortcut key**
 4. Press your desired keys (e.g. `Ctrl + Alt + S`)
@@ -168,7 +166,7 @@ Win + R → shell:programs
    ```
    shell:startup
    ```
-3. Paste `startup.exe` into that folder
+3. Paste `atonce.exe` into that folder
 
 ---
 
@@ -182,7 +180,7 @@ Win + R → shell:programs
 
 ## 💡 Notes
 
-* Keep `startup.py` safe — you need it for editing
+* Keep `atonce.py` safe — you need it for editing
 * EXE file cannot be edited directly
 * First EXE run may be slower (normal behavior)
 
